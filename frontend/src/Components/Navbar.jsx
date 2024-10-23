@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className='bg-[#ffffff]'>
             <div className="flex justify-between lg:text-lg items-center py-3 xl:py-5 font-semibold px-5 sm:px-10 relative">
                 <div className='flex items-center gap-10'>
-                    <Link to="/" className='font-bold text-xl lg:text-2xl'>&lt;<span className='text-[#666666]'>Code</span>Sheet/&gt;</Link>
+                    <Link to="/home" className='font-bold text-xl lg:text-2xl'>&lt;<span className='text-[#666666]'>Code</span>Sheet/&gt;</Link>
                     <Link to="/about" className='hover:cursor-pointer text-[#666666] hover:text-black mt-1 hidden md:block'>About Us</Link>
                     <Link to="/contact" className='hover:cursor-pointer text-[#666666] hover:text-black mt-1 hidden md:block'>Contact Us</Link>
                 </div>
